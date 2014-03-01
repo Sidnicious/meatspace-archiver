@@ -1,17 +1,13 @@
 {
-  "name": "meatspace-cleaver",
+  "name": "meatspace-archiver",
   "version": "0.1.0",
-  "description": "A read-only CLI for Meatspace Chat",
-  "main": "bin/meatspace-cleaver.js",
+  "description": "An archiver for Meatspace Chat",
+  "main": "bin/meatspace-archiver.js",
   "bin": {
-    "meatcleaver": "bin/meatspace-cleaver.js"
+    "meatarchiver": "bin/meatspace-archiver.js"
   },
   "dependencies": {
-    "chalk": "~0.4.0",
-    "socket.io-client": "~0.9.16",
-    "nomnom": "~1.6.2",
-    "underscore": "~1.6.0",
-    "underscore.string": "~2.3.3"
+    "socket.io-client": "~0.9.16"
   },
   "devDependencies": {},
   "scripts": {
@@ -19,15 +15,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gggritso/meatspace-cleaver.git"
+    "url": "https://github.com/Sidnicious/meatspace-archiver.git"
   },
   "keywords": [
     "meatspace"
   ],
-  "author": "George Gritsouk",
-  "license": "MIT",
+  "author": "Sidney San Martín",
+  "license": "Public domain/CC0",
   "bugs": {
-    "url": "https://github.com/gggritso/meatspace-cleaver/issues"
+    "url": "https://github.com/Sidnicious/meatspace-archiver/issues"
   },
-  "homepage": "https://github.com/gggritso/meatspace-cleaver"
+  "homepage": "https://github.com/Sidnicious/meatspace-archiver"
 }
