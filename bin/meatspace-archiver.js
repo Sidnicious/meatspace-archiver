@@ -3,7 +3,7 @@
 
 var socket = require( 'socket.io-client' );
 
-var URL = 'https://' + process.argv[2] + '.meatspac.es/';
+var URL = (process.argv[3] || 'https') + '://' + process.argv[2] + '.meatspac.es/';
 
 var c = socket.connect( URL ).on( 'connect', function() {
 
